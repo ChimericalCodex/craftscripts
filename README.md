@@ -8,6 +8,11 @@ Scripts should be installed into the `worldedit/craftscripts/` directory.
 ### Vine Brush ###
     /cs vine <size> <density> <length> <material>
 
+    Examples:
+    /cs vine 8 85 15
+    /cs vine 5 70 8 oak_leaves[persistent=true]
+    /cs vine 2 50 6 glowstone
+
 This script binds a vine brush to the currently held tool. Using the brush
 will create vines in the target area. Vine material, length, density, and brush
 size can be configured. Vines will not be placed on blocks that cannot normally
